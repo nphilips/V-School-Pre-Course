@@ -1,0 +1,47 @@
+body{
+    background-color: darkgray;
+    text-align: center;
+}
+
+#myButton {
+    display: none; /*Hidden by default */
+    position: fixed; /*Giving the button a fixed posion*/
+    bottom: 20px; /*Places the button at the bottom of the page*/
+    right: 30px; /*Places the button 30px from the right of the page*/
+    z-index: 99; /*Makes sure the button doesn't overlap over anything*/
+    /* border: none; Gives the button a border */
+    border-color: blueviolet; /*Makes the border color blue 'violet' */
+    outline-color: aqua; /*Makes the outline color of the button 'aqua' */
+    background-color: darksalmon; /*Makes the background color of the button 'salmon' */
+    color: black; /*Makes the text color 'black' (pointless line) */
+    cursor: pointer; /*Adds a mouse pointer when hovering over button */
+    padding: 15px; /*Adds some padding*/
+    border-radius: 10px; /*Rounds the corners of the button */
+    font-size: 18px; /*Changes the font size */
+
+}
+
+#myButton:hover{
+    background-color: blue; /*Changes the bacground color to 'blue' on hover */
+}
+
+h1{
+    color: cyan;
+}
+h2{
+    color: rgb(6, 252, 129);
+}
+h3{
+    color: rgb(247, 4, 234);
+}
+h4{
+    color: mintcream;
+}
+h5{
+    color: mintcream;
+}
+
+p{
+    color: mintcream;
+    font-size: 24px;
+}
